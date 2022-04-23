@@ -1,5 +1,5 @@
 ## Main Notebook Files
-This project demonstrates the use and impact of Knowledge Distillation (KD) with the MNIST dataset using TensorFlow. KD is important for taking a large resource intensive Neural Net model and condensing it into a smaller model for IoT or end device applications while attempting to maintain a high level of accuracy.
+This project demonstrates the use and impact of Knowledge Distillation (KD) with the MNIST dataset using TensorFlow. Large resource intensive Neural Net model are difficult to run on IoT or end use devices like smartphones. KD takes these large models and has them train smaller "Student" models by transferring the hidden dark knowledge as outlined in Hinton et al (2015) paper. This transfer effectively helps to compress the large model's knowledge into a smaller model while attempting to maintain a high level of accuracy.
 
 ### Task1.ipynb
 This notebook contains many sections that must be run from top to bottom to get the results of KD on the MNIST dataset.
