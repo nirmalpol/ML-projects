@@ -2,9 +2,9 @@
 This project demonstrates the use and impact of Knowledge Distillation (KD) with the MNIST dataset using TensorFlow. Large resource intensive Neural Net model are difficult to run on IoT or end use devices like smartphones. KD takes these large models and has them train smaller "Student" models by transferring the hidden dark knowledge as outlined in Hinton et al (2015) paper. This transfer effectively helps to compress the large model's knowledge into a smaller model while attempting to maintain a high level of accuracy.
 
 ### KD.ipynb
-This notebook contains many sections that must be run from top to bottom to get the results of KD on the MNIST dataset.
+Details of how KD is applied is described in further detail in this notebook which contains many sections that must be run from top to bottom to get the results of KD on the MNIST dataset.
 
-## References to Open Source Libraries
+## Referencess
 - G. Hinton, O. Vinyals, and J. Dean, “Distilling the Knowledge in a Neural Network,”
 ArXiv150302531 Cs Stat, Mar. 2015, Accessed: Apr. 03, 2022. [Online]. Available:
 http://arxiv.org/abs/1503.02531
